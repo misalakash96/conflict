@@ -1,0 +1,8 @@
+cd main
+echo "Line 1" > conflict.txt
+echo "Line 2" >> conflict.txt
+echo "Line 3" >> conflict.txt
+cd ..
+git add .
+git commit -m "Initial commit with conflict.txt in main branch"
+git push origin main
