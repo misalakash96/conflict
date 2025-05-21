@@ -1,6 +1,6 @@
 cd main
 echo "Line 1" > conflict.txt
-echo "Line 2" >> conflict.txt
+echo "Line 2 akash misal" >> conflict.txt
 echo "Line 3" >> conflict.txt
 cd ..
 git add .
